@@ -8,10 +8,7 @@ vscodeExtensionsInstall(){
         "GitHub.github-vscode-theme"
         "miguelsolorio.fluent-icons"
         "naumovs.color-highlight"
-        "eamodio.gitlens"
-        "Codeium.codeium"
         "adpyke.codesnap"
-        "donjayamanne.githistory"
         "Cardinal90.multi-cursor-case-preserve"
     )
 
@@ -137,7 +134,7 @@ main() {
             --extensions-reset)
                 vscodeExtensionsReset
                 ;;
-            --extensions-uinstall)
+            --extensions-uninstall)
                 vscodeExtensionsUninstall
                 ;;
             --extensions-install)
@@ -153,7 +150,7 @@ main() {
                 $0 --node     Set up node version 23 and nvm verison 0.40\n
                 $0 --dev-noextension     Set up all aps without VS Code extensions\n  
                 $0 --extension-reset    Uninstall all VS Code extensions and install them again\n
-                $0 --extension-uinstall    Uninstall all VS Code extensions\n
+                $0 --extension-uninstall    Uninstall all VS Code extensions\n
                 $0 --extension-install    Install all VS Code extensions\n
                 $0 --personal     Set up using my personal preferences\n"
                 ;;

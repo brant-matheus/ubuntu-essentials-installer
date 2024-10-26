@@ -45,13 +45,10 @@ You can run the script with the following options:
 - Git
 
 ## Default Extensions
-- Codeium
 - CodeSnap
 - Color HighLight
 - Fluent Icons
-- Git history
 - GitHub Theme
-- GitLens 
 - Multiple cursor case preserve
 - Prettier
 - Symbols
@@ -60,3 +57,9 @@ You can run the script with the following options:
 ## AdonisJS Extensions
 - AdonisJS Extension
 - Japa Extension
+
+## Extra
+# Install manually both
+- Codeium
+- GitLeans
+- GitHistory
