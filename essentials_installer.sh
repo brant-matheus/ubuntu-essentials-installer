@@ -1,5 +1,17 @@
 #!/bin/bash
 
+
+extensionsInstaller(){
+    local extensions=("$@")
+
+    for extension in "${extensions[@]}"; do
+        echo "Installing $extension ..."
+        code --install-extension $extension --force
+    done
+
+    echo "Extension installation complete!"
+
+}
 vscodeExtensionsInstall(){
     extensions=(
         "bradlc.vscode-tailwindcss"
@@ -12,14 +24,7 @@ vscodeExtensionsInstall(){
         "Cardinal90.multi-cursor-case-preserve"
     )
 
-    for extension in "${extensions[@]}"; do
-  
-        echo "Installing $extension ..."
-        code --install-extension $extension --force
-        
-    done
-
-    echo "Extension installation complete!"
+    extensionsInstaller "${extensions[@]}" 
     
 }
 
@@ -96,14 +101,9 @@ adonisSetup(){
         "jripouteau.japa-vscode"
         "jripouteau.adonis-vscode-extension"
     )
-    for extension in "${extensions[@]}"; do
-  
-        echo "Installing $extension ..."
-        code --install-extension $extension --force
-        
-    done
 
-    echo "Extension installation complete!"
+    extensionsInstaller "${extensions[@]}" 
+
 }
 
 personal(){
