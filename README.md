@@ -58,8 +58,7 @@ You can run the script with the following options:
 - AdonisJS Extension
 - Japa Extension
 
-## Extra
-# Install manually both
+## Install manually
 - Codeium
 - GitLeans
 - GitHistory

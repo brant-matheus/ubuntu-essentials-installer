@@ -149,9 +149,9 @@ main() {
                 $0 --adonis     Set up VS Code extensions for adonis\n
                 $0 --node     Set up node version 23 and nvm verison 0.40\n
                 $0 --dev-noextension     Set up all aps without VS Code extensions\n  
-                $0 --extension-reset    Uninstall all VS Code extensions and install them again\n
-                $0 --extension-uninstall    Uninstall all VS Code extensions\n
-                $0 --extension-install    Install all VS Code extensions\n
+                $0 --extensions-reset    Uninstall all VS Code extensions and install them again\n
+                $0 --extensions-uninstall    Uninstall all VS Code extensions\n
+                $0 --extensions-install    Install all VS Code extensions\n
                 $0 --personal     Set up using my personal preferences\n"
                 ;;
             *)
