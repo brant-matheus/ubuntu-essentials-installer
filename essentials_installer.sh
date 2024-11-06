@@ -171,6 +171,14 @@ main() {
             --personal)
                 personal
                 ;;
+
+            --docker)
+                dockerInstall
+                ;;
+            --docker=postgres)
+                dockerInstall
+                postgresInstall
+                ;;
             --help)
                 echo -e "Usage:\n  
                 $0 --dev     Set up all aps including VS Code extensions\n  
@@ -180,7 +188,9 @@ main() {
                 $0 --extensions-reset    Uninstall all VS Code extensions and install them again\n
                 $0 --extensions-uninstall    Uninstall all VS Code extensions\n
                 $0 --extensions-install    Install all VS Code extensions\n
-                $0 --personal     Set up using my personal preferences\n"
+                $0 --personal     Set up using my personal preferences\n
+                $0 --docker     Install docker\n
+                $0 --docker=postgres     Install docker and postgres\n"
                 ;;
             *)
                 echo "Unknown option: $arg"
