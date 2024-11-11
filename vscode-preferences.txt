@@ -1,0 +1,19 @@
+1. ctrl + shift + p >> Open User settings (JSON) >> copy this.
+
+{
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "compact",
+  "workbench.iconTheme": "symbols",
+  "window.titleBarStyle": "custom",
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.defaultProfile.linux": "bash"
+}
