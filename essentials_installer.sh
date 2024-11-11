@@ -94,7 +94,10 @@ devProfile(){
     vscodeExtensionsInstall
 }
 
+dbeaverInstall(){
+    systemUpdate && sudo sudo snap install dbeaver-ce
 
+}
 
 adonisSetup(){
     extensions=(
@@ -110,6 +113,7 @@ personal(){
     nodeInstall
     devProfile
     adonisSetup
+    dbeaverInstall
 }
 
 main() {
