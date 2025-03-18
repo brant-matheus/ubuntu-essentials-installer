@@ -78,7 +78,10 @@ nodeInstall(){
     export NVM_DIR="$HOME/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  #
     nvm install 23
+    npm install --global yarn
+
     systemUpdate
+    
 }
 #profiles
 appsInstall(){
